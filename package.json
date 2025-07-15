@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "todoapp",
   "version": "1.0.0",
   "description": "just a project to learn",
@@ -11,12 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^5.1.0",
-    "zod": "^4.0.2"
-=======
-  "dependencies": {
-    "express": "^5.1.0",
     "mongoose": "^8.16.2",
     "zod": "^4.0.3"
->>>>>>> master
   }
 }
