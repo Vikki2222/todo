@@ -616,3 +616,63 @@
 </script>
 </body>
 </html>
+
+
+
+
+
+
+Create a React Flow based interactive knowledge tree explorer using @xyflow/react.
+
+Requirements:
+
+1. Root node called "Incident Copilot".
+
+2. Root expands into:
+   - Problems We Are Solving
+   - Solution Workflow
+   - Decision Logic
+   - Queue Health Score
+
+3. Each node should support progressive exploration.
+   Clicking a node should reveal its direct children.
+
+4. Accordion behavior:
+   - Only one major branch can remain expanded at a time.
+   - Opening a new branch automatically collapses the previously opened branch.
+
+5. Every node should support expand/collapse toggling.
+
+6. Hierarchy should be driven by a JavaScript object rather than manually creating all nodes.
+
+7. Use React Flow features:
+   - Controls
+   - MiniMap
+   - Background
+   - Fit View
+
+8. Apply a modern GitHub-style dark theme.
+
+9. Use color coding:
+   - Root = Purple
+   - Categories = Blue
+   - Problems = Red
+   - Decision nodes = Orange
+   - Solutions = Green
+   - Analytics = Cyan
+
+10. Maintain large equal spacing between branches and levels so that individual nodes can be presented and discussed.
+
+11. Include:
+   - Reset button
+   - Show All button
+
+12. Support unlimited hierarchy depth:
+   Category → Problem → Subproblem → Solution → Outcome.
+
+13. Use smooth animated edges with arrow markers.
+
+14. Node cards should be modern, rounded, shadowed, and presentation-friendly.
+
+15. The tree should automatically generate nodes and edges from the hierarchy data and remain scalable for 100+ nodes.
+``
